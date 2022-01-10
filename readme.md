@@ -1,7 +1,7 @@
 #### Ansible automatic installation
 
 ### Run script command
-  ``ansible-playbook -i ``
+  ``ansible-playbook -i hosts.ini setup_wp.yaml -e DB_PW='blog!'``
 
 ### Configuration
 ## 0. Add studentkey to ssh agent
