@@ -9,11 +9,7 @@
     DB_USER: blog
     DB_PW: blog!
   tasks:
-    - name: "Lets create Hello world file"
-      file:
-        path: ~/hello_world.txt
-        state: touch
-    - name: "Install apche server"
+    - name: "Install apache server"
       yum:
         name: httpd
         state: present
