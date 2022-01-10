@@ -18,4 +18,4 @@
  - Create db, create user and grand privileges
  - Create wp-config and put it in wordpress catalog
  - Restart Apache
-## 3. Run script command from above
+![Alt text](working-blog.png?raw=true "Works fine")
